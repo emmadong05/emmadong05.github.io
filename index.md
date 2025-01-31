@@ -3,7 +3,6 @@ layout: default
 title: Emma Dong
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -61,6 +60,6 @@ title: Emma Dong
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     }
     a {
-        color: #d63384;
+        color: #ff96ca;
     }
 </style>
