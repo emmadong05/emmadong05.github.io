@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Emma Dong</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Emma Dong</h1>
+        <p>Computer Science @ Carnegie Mellon University</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Kitty Klicker:</strong> Java Swing game for fine motor skills development.</li>
+            <li><strong>Discord Bot:</strong> JavaScript moderation bot for large servers.</li>
+            <li><strong>Number Identifier:</strong> Python-based CNN for digit recognition.</li>
+        </ul>
+    </section>
+</body>
+</html>
