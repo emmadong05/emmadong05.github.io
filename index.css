@@ -1,6 +1,6 @@
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: #ffe6f2;
+    background-color: #ffe6f2; /* Soft pink background */
     color: #333;
     margin: 0;
     padding: 24px;
@@ -9,7 +9,7 @@ body {
 header {
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    background: #ffb6c1;
+    background: #ffb6c1; /* Light pink background */
     padding: 24px;
     border-radius: 12px;
 }
@@ -23,9 +23,38 @@ section {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1{
+h1 {
     font-family: 'Nunito', sans-serif;
 }
+
 a {
-    color: #d63384;
+    color: #d63384; /* Pink color for links */
+}
+
+/* Navigation Bar Styles */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #d63384; /* Pink background for buttons */
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 25px; /* Rounded corners for buttons */
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+nav a:active {
+    background-color: #9c155e; /* Even darker pink on active */
 }
