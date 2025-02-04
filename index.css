@@ -1,7 +1,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #ffe6f2; /* Soft pink background */
-    color: #333;
+    color: #1a0201;
     margin: 0;
     padding: 24px;
 }
@@ -17,6 +17,7 @@ header {
 section {
     margin: 20px 0;
     font-family: 'Nunito', sans-serif;
+    color: #1a0201;
     padding: 12px;
     background: white;
     border-radius: 12px;
@@ -25,6 +26,7 @@ section {
 
 h1 {
     font-family: 'Nunito', sans-serif;
+    color: #1a0201;
 }
 
 a {
@@ -34,7 +36,8 @@ a {
 /* Navigation Bar Styles */
 nav {
     text-align: center;
-    margin-top: 20px;
+    color: #1a0201;
+    margin-top: 24px;
 }
 
 nav a {
@@ -43,8 +46,8 @@ nav a {
     color: white;
     background-color: #d63384; /* Pink background for buttons */
     padding: 12px 24px;
-    margin: 10px;
-    border-radius: 25px; /* Rounded corners for buttons */
+    margin: 12px;
+    border-radius: 24px; /* Rounded corners for buttons */
     font-size: 18px;
     font-weight: 600;
     transition: background-color 0.3s, transform 0.2s ease;
