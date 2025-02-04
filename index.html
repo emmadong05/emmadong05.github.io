@@ -4,7 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emma Dong</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">'
+
+    <style>
+        svg {
+          width: 200px; /* Adjust the size of the cat */
+          height: 200px; /* Adjust the size of the cat */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,37 +31,53 @@
     </section>
 
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <!-- Cat Body -->
-  <ellipse cx="100" cy="120" rx="60" ry="80" fill="white"/>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <!-- Cat Body -->
+    <ellipse cx="100" cy="130" rx="60" ry="80" fill="white"/>
+    <ellipse cx="75" cy="170" rx="40" ry="30" fill="orange"/>
+    <ellipse cx="125" cy="170" rx="40" ry="30" fill="orange"/>
 
-  <!-- Cat Head -->
-  <circle cx="100" cy="50" r="50" fill="white"/>
+    <!-- Cat Tail -->
+    <path d="M150 110 Q170 90, 180 120 Q190 160, 160 140" fill="orange" stroke="orange" stroke-width="10"/>
 
-  <!-- Cat Ears -->
-  <polygon points="60,20 80,10 80,40" fill="orange"/>
-  <polygon points="140,20 120,10 120,40" fill="orange"/>
+    <!-- Cat Head -->
+    <circle cx="100" cy="50" r="50" fill="white"/>
+    <circle cx="85" cy="50" r="15" fill="orange"/> <!-- Ginger patch on head -->
 
-  <!-- Cat Eyes -->
-  <circle cx="70" cy="45" r="8" fill="black"/>
-  <circle cx="130" cy="45" r="8" fill="black"/>
+    <!-- Cat Ears -->
+    <polygon points="60,20 80,10 80,40" fill="orange"/>
+    <polygon points="140,20 120,10 120,40" fill="orange"/>
 
-  <!-- Cat Nose -->
-  <circle cx="100" cy="65" r="5" fill="pink"/>
+    <!-- Inner Ear Details -->
+    <polygon points="70,25 80,15 80,35" fill="pink"/>
+    <polygon points="130,25 120,15 120,35" fill="pink"/>
 
-  <!-- Cat Mouth -->
-  <path d="M90 75 Q100 85, 110 75" stroke="black" fill="transparent"/>
-  <path d="M90 75 Q100 90, 110 75" stroke="black" fill="transparent"/>
+    <!-- Cat Eyes -->
+    <circle cx="70" cy="45" r="10" fill="white"/>
+    <circle cx="130" cy="45" r="10" fill="white"/>
+    <circle cx="70" cy="45" r="5" fill="black"/>
+    <circle cx="130" cy="45" r="5" fill="black"/>
 
-  <!-- Cat Whiskers -->
-  <path d="M40 55 Q60 60, 40 65" stroke="black"/>
-  <path d="M40 45 Q60 40, 40 35" stroke="black"/>
-  <path d="M160 55 Q140 60, 160 65" stroke="black"/>
-  <path d="M160 45 Q140 40, 160 35" stroke="black"/>
+    <!-- Cat Nose -->
+    <circle cx="100" cy="65" r="6" fill="pink"/>
 
-  <!-- Cat Paws -->
-  <circle cx="70" cy="150" r="10" fill="orange"/>
-  <circle cx="130" cy="150" r="10" fill="orange"/>
-</svg>
+    <!-- Cat Mouth -->
+    <path d="M90 75 Q100 85, 110 75" stroke="black" fill="transparent"/>
+    <path d="M90 75 Q100 90, 110 75" stroke="black" fill="transparent"/>
+
+    <!-- Cat Whiskers -->
+    <path d="M40 55 Q60 60, 40 65" stroke="black" stroke-width="2"/>
+    <path d="M40 45 Q60 40, 40 35" stroke="black" stroke-width="2"/>
+    <path d="M160 55 Q140 60, 160 65" stroke="black" stroke-width="2"/>
+    <path d="M160 45 Q140 40, 160 35" stroke="black" stroke-width="2"/>
+
+    <!-- Cat Paws -->
+    <circle cx="70" cy="150" r="12" fill="orange"/>
+    <circle cx="130" cy="150" r="12" fill="orange"/>
+
+    <!-- Paw pads -->
+    <circle cx="70" cy="150" r="5" fill="pink"/>
+    <circle cx="130" cy="150" r="5" fill="pink"/>
+  </svg>
 </body>
 </html>
