@@ -8,6 +8,7 @@ body {
 
 header {
     text-align: center;
+    font-family: 'Nunito', sans-serif;
     background: #ffb6c1;
     padding: 20px;
     border-radius: 15px;
@@ -15,12 +16,16 @@ header {
 
 section {
     margin: 20px 0;
+    font-family: 'Nunito', sans-serif;
     padding: 15px;
     background: white;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+h1{
+    font-family: 'Nunito', sans-serif;
+}
 a {
     color: #d63384;
 }
