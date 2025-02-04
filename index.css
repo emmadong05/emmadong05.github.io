@@ -49,18 +49,18 @@ nav a {
     display: inline-block;
     text-decoration: none;
     color: white;
-    background-color: #d63384; /* Pink background for buttons */
+    background-color: #c2185b; /* background for buttons */
     padding: 12px 24px;
     margin: 12px;
-    border-radius: 24px; /* Rounded corners for buttons */
+    border-radius: 24px; /* rounded corners*/
     font-size: 18px;
     font-weight: 600;
     transition: background-color 0.3s, transform 0.2s ease;
 }
 
 nav a:hover {
-    background-color: #c2185b; /* Darker pink on hover */
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    background-color: #960b42; /* darker pink on hover */
+    transform: scale(1.1); /* enlarge on hover */
 }
 
 nav a:active {
