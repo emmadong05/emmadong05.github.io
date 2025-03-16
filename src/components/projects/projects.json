@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Competitive Reeling",
+        "description": "Tartanhacks 2025 Project Submission",
+        "link": "https://github.com/emmadong05/competitive-reeling",
+        "image": "/projects/tartanhacks.png",
+        "tags": {
+            "languages": ["typescript", "javascript", "python"],
+            "libraries": ["next", "openai sdk", "flask", "mongo"]
+        }
+    },
+    {
+        "name": "Website Portfolio",
+        "description": "rawr",
+        "link": "https://www.emmadong.dev",
+        "image": "/projects/tartanhacks.png",
+        "tags": {
+            "languages": ["typescript", "javascript", "python"],
+            "libraries": ["next", "openai sdk", "flask", "mongo"]
+        }
+    }
+]

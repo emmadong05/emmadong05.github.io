@@ -12,6 +12,7 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "motion": "^12.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.3.0",

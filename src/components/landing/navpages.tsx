@@ -1,8 +1,8 @@
 import { Page } from "../../stores/page.store";
 import AboutPage from "../about/page";
-import ContactsPage from "../contacts/page";
+//import ContactsPage from "../contacts/page";
 import ProjectsPage from "../projects/page";
-import ResumePage from "../resume/page";
+//import ResumePage from "../resume/page";
 
 const pages = [
     {
@@ -11,7 +11,7 @@ const pages = [
     },
     {
         page: Page.CONTACTS,
-        component: <ContactsPage />
+        component: <ProjectsPage />
     },
     {
         page: Page.PROJECTS,
@@ -19,6 +19,6 @@ const pages = [
     },
     {
         page: Page.RESUME,
-        component: <ResumePage />
+        component: <ProjectsPage />
     },
 ];
