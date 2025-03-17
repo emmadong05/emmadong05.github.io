@@ -22,3 +22,5 @@ const pages = [
         component: <ProjectsPage />
     },
 ];
+
+export { pages };

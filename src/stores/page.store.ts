@@ -11,7 +11,7 @@ type PageStore = {
     page: Page
 }
 const usePageStore = create<PageStore>( () => ({
-    page: Page.ABOUT
+    page: Page.CONTACTS
 }));
 
 export {Page, usePageStore};

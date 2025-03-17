@@ -6,22 +6,23 @@ export default function ProjectPage() {
     const [topCardIndex, setTopCardIndex] = useState(0);
     const listRef = useRef<HTMLDivElement>(null);
 
-    useEffect( ()=> {
+    useEffect(() => {
         const handleScroll = () => {
-            if (!listRef.current) return;
-            const cards = Array.from(listRef.current.children) as HTMLDivElement[];
-            for (let i = 0; i < cards.length; i++){
-                const rect = cards[i].getBoundingClientRect();
-                if (rect.top >= 0 && rect.top <= 100){
-                    setTopCardIndex(i);
-                    break;
-                }
+          if (!listRef.current) return;
+          const cards = Array.from(listRef.current.children) as HTMLDivElement[];
+          for (let i = 0; i < cards.length; i++) {
+            const rect = cards[i].getBoundingClientRect();
+            if (rect.top >= 0 && rect.top <= 120) {
+              setTopCardIndex(i);
+              break;
             }
+          }
         };
-
+    
         listRef.current?.addEventListener("scroll", handleScroll);
-        return () => listRef.current?.removeEventListener("scroll",handleScroll);
-    },[]);
+        return () => listRef.current?.removeEventListener("scroll", handleScroll);
+      }, []);
+      
     return (
         <div
             ref = {listRef}
@@ -32,7 +33,7 @@ export default function ProjectPage() {
                     key={index} 
                     {...project} 
                     index= {index}
-                    isTopCard= {index === topCardIndex} 
+                    isTopCard= {index === Math.min(topCardIndex+1, projects.length-1)} 
                 />
             ))}
         </div>
